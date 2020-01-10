@@ -32,7 +32,7 @@
 
 Name:           jakarta-oro
 Version:        2.0.8
-Release:        15%{?dist}
+Release:        16%{?dist}
 Epoch:          0
 Summary:        Full regular expressions API
 License:        ASL 1.1
@@ -99,6 +99,9 @@ install -p -m 644 %{SOURCE2} $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-%{name}.pom
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 02.0.8-16
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:2.0.8-15
 - Remove workaround for rpm bug #646523
 - Update to current packaging guidelines
